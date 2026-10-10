@@ -1,13 +1,10 @@
 {
-  "name": "sass-js",
-  "description": "Include Bootstrap's source Sass and compiled JavaScript bundle via npm.",
+  "name": "parqueadero-publico",
+  "description": "Landing page de parqueadero público construida con Bootstrap 5, Sass y JavaScript.",
   "version": "0.0.0",
   "private": true,
-  "repository": "twbs/examples",
+  "repository": "github:andrestorresaioros/Example",
   "license": "MIT",
-  "stackblitz": {
-    "startCommand": "npm start"
-  },
   "scripts": {
     "build": "npm run css",
     "css-compile": "sass --style compressed --source-map --embed-sources --no-error-css --load-path=node_modules scss/:css/",
@@ -33,5 +30,6 @@
     "sirv-cli": "^2.0.2",
     "stylelint": "^15.4.0",
     "stylelint-config-twbs-bootstrap": "^9.0.1"
-  }
+  },
+  "author": "César Andrés Torres Bernal"
 }
